@@ -1,0 +1,45 @@
+<!---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AJAX post JSON to Web API</title>
+</head>
+<body>
+    <p class="remind">
+        https://github.com/hexschool/nodejs_ajax_tutorial <br>
+        此範例僅供AJAX post練習，並不會儲存用戶資料至資料庫(僅緩存)。<br>
+        測試Data:<br>
+        email(帳號): 'lovef2e@hexschool.com',<br>
+        password: '12345678'<br>
+    </p>
+    <br><br><br>
+    <form action="index.html" class="signup">
+        <h2>註冊</h2>
+        <br>
+        帳號：
+        <input type="text" name="account" class="signup-account">
+        <br>
+        密碼：
+        <input type="password" name="password" class="signup-password">
+        <br>
+        <input type="submit" value="送出" class="signup-send">
+    </form>
+    <br><br><br>
+    <form action="index.html" class="signin">
+        <h2>登入</h2>
+        <br>
+        帳號：
+        <input type="text" name="account" class="signin-account">
+        <br>
+        密碼：
+        <input type="password" name="password" class="signin-password">
+        <br>
+        <input type="submit" value="送出" class="signin-send">
+    </form>
+    <script src="js/all.js"></script>
+</body>
+</html>
